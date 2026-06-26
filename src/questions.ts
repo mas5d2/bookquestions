@@ -183,7 +183,7 @@ export const QUESTIONS_MARKDOWN = `- [p1] What is QA actually responsible for?
 - [p3] How should QA be staffed?
 - [p3] How should QA be budgeted?
 - [p3] How should QA be included in estimates?
-- [p3] How does a team adopt this model without boiling the ocean?
+- [p3] How does a team adopt a modern QA operating model without boiling the ocean?
 
 - [p3] How does QA work in fixed-fee delivery?
 - [p2] Why is unfunded QA a margin problem?
@@ -201,11 +201,11 @@ export const QUESTIONS_MARKDOWN = `- [p1] What is QA actually responsible for?
 - [p2] What are we assuming the system will do?
 - [p2] What are we assuming the developer checked?
 - [p2] What are we assuming the client meant?
-- [p2] What would make this release embarrassing?
-- [p2] What would make this release unsafe?
-- [p2] What would make this release expensive?
-- [p2] What would make this release untrustworthy?
-- [p2] What would we wish we had tested if this failed in production?
+- [p2] What conditions make a software release embarrassing for users and stakeholders?
+- [p2] What conditions make a software release unsafe?
+- [p2] What release failures create the highest financial cost?
+- [p2] What release outcomes would damage user trust the most?
+- [p2] If a release fails in production, what do teams most often wish they had tested?
 
 - [p2] Is quality a craft, a process, a culture, or a control system?
 - [p3] Can a team be fast without being disciplined?
