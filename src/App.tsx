@@ -392,6 +392,10 @@ function App() {
     setCurrentQuestionId(null)
   }
 
+  function editPreviousAnswer(questionId: string) {
+    setCurrentQuestionId(questionId)
+  }
+
   function chooseDifferentRandomQuestion() {
     if (selectionMode !== 'random' || remainingQuestions.length < 2) {
       return
@@ -627,6 +631,15 @@ function App() {
                 <li key={record.questionId}>
                   <h3>{record.questionText}</h3>
                   <p>{record.answer}</p>
+                  <div className="row">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      onClick={() => editPreviousAnswer(record.questionId)}
+                    >
+                      Edit
+                    </button>
+                  </div>
                 </li>
               ))}
             </ul>
