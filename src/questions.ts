@@ -1,0 +1,219 @@
+export const QUESTIONS_MARKDOWN = `- [p1] What is QA actually responsible for?
+- [p1] What is QA not responsible for?
+- [p1] What is the difference between testing, quality assurance, and quality engineering?
+- [p1] Why do organizations treat QA as a lesser discipline?
+- [p1] What does a strong QA person see that others miss?
+- [p1] Why is QA often blamed for problems created earlier in the delivery system?
+- [p1] What does quality mean beyond no bugs?
+- [p1] Who owns quality: QA, engineering, product, delivery, or leadership?
+- [p1] What does it mean for QA to own the quality signal?
+- [p1] What happens when QA has responsibility but no authority?
+
+- [p1] Why should QA be involved before development starts?
+- [p1] What should QA contribute during discovery?
+- [p1] What should QA look for in requirements?
+- [p1] How does QA expose ambiguity?
+- [p1] How does QA help improve acceptance criteria?
+- [p1] What does QA need from product to be effective?
+- [p1] What does QA need from engineering to be effective?
+- [p1] What does QA need from delivery or project management?
+- [p1] What does QA need from leadership?
+- [p1] How does QA reduce rework instead of adding time?
+
+- [p1] What should the QA Lead own?
+- [p1] What should the QA Lead approve?
+- [p1] What decisions should QA influence but not own?
+- [p1] What authority does QA need to be effective?
+- [p1] Should QA be able to block a release?
+- [p1] What does it mean for QA to be the deployment quality gate?
+- [p1] When can leadership override QA's recommendation?
+- [p1] How should risk acceptance be documented?
+- [p1] Who owns the final business go or no-go decision?
+- [p1] How do we prevent QA from becoming the scapegoat?
+
+- [p1] What does release ready mean?
+- [p1] What evidence should exist before QA signs off?
+- [p1] What defects are acceptable at release?
+- [p1] What defects are never acceptable at release?
+- [p1] How should known issues be communicated?
+- [p1] What is the difference between QA signoff and business acceptance?
+- [p1] What is the difference between technical deployability and quality readiness?
+- [p1] What should happen when QA says not ready?
+- [p1] What should happen when the business says release anyway?
+- [p1] What should post-release validation look like?
+
+- [p1] What makes a requirement testable?
+- [p1] What makes acceptance criteria useful?
+- [p1] What are examples of bad acceptance criteria?
+- [p1] What are examples of good acceptance criteria?
+- [p1] How should edge cases be captured?
+- [p1] Who is responsible for resolving ambiguity?
+- [p1] How does QA prevent requirements archaeology?
+- [p1] When should QA reject a ticket as not testable?
+- [p1] How should QA handle undocumented behavior?
+- [p1] How should teams distinguish expected behavior from assumed behavior?
+
+- [p1] What is a test strategy?
+- [p2] What is the difference between a test plan and a test strategy?
+- [p2] Who creates the test strategy?
+- [p2] When should the test strategy be created?
+- [p2] What makes a test strategy too heavy?
+- [p2] What makes a test strategy too shallow?
+- [p2] How does QA decide what to test deeply?
+- [p2] How does QA decide what not to test deeply?
+- [p2] How should testing differ by risk profile?
+- [p2] How should test strategy change for agency, product, and enterprise environments?
+
+- [p2] What is risk-based testing?
+- [p2] How do we define risk?
+- [p2] What risks matter most: user, business, technical, legal, security, accessibility, financial, and reputational?
+- [p2] How do probability and impact affect testing depth?
+- [p2] How does reversibility affect release decisions?
+- [p2] How should QA test critical paths?
+- [p2] How should QA test low-risk features?
+- [p2] What does enough testing mean?
+- [p2] How do teams avoid testing everything equally?
+- [p2] How does QA communicate residual risk?
+
+- [p2] Why is manual testing still valuable?
+- [p2] What is exploratory testing?
+- [p2] What does a good exploratory tester do?
+- [p2] Why is clicking around not the same as testing?
+- [p2] What human judgment cannot be replaced by automation?
+- [p2] How should manual testing be structured?
+- [p2] When is scripted testing useful?
+- [p2] When does scripted testing become waste?
+- [p2] How should QA document manual test coverage?
+- [p2] How do we make manual testing respected?
+
+- [p2] What should be automated?
+- [p2] What should not be automated?
+- [p2] Who owns automated tests?
+- [p2] Is automation a QA responsibility, engineering responsibility, or shared responsibility?
+- [p2] What does brittle automation cost?
+- [p2] How do teams know whether automation is creating confidence or theater?
+- [p2] What is the right balance of unit, integration, end-to-end, and visual regression tests?
+- [p2] How should automation fit into CI and CD?
+- [p2] What should happen when automated tests fail?
+- [p2] Why does automation not replace QA?
+
+- [p2] What is regression testing actually for?
+- [p2] How should a regression suite be designed?
+- [p2] How does QA decide what goes into regression?
+- [p2] How often should regression testing happen?
+- [p2] How does regression differ before major versus minor releases?
+- [p2] How do teams avoid massive, stale regression suites?
+- [p2] What role should automation play in regression?
+- [p2] What role should manual judgment play?
+- [p2] How should production incidents inform regression coverage?
+- [p2] How do we keep regression valuable instead of ritualized?
+
+- [p2] What is a defect?
+- [p2] What is not a defect?
+- [p2] What makes a defect severe?
+- [p2] What makes a defect high priority?
+- [p2] Why are severity and priority different?
+- [p2] Who owns defect triage?
+- [p2] What does a good defect report include?
+- [p2] What makes a defect report actionable?
+- [p2] How should teams handle disputed defects?
+- [p2] How should teams handle works as designed issues?
+
+- [p2] What QA metrics actually matter?
+- [p2] Which QA metrics create bad incentives?
+- [p2] Why is bug count a dangerous metric?
+- [p2] How should teams measure escaped defects?
+- [p2] How should teams measure rework?
+- [p2] How should teams measure release confidence?
+- [p2] How should teams measure test coverage without lying to themselves?
+- [p2] How should QA report status to leadership?
+- [p2] What should a QA dashboard show?
+- [p2] What should executives stop asking QA for?
+
+- [p2] How does QA think about accessibility?
+- [p3] How does QA think about performance?
+- [p3] How does QA think about security?
+- [p3] How does QA think about data quality?
+- [p3] How does QA think about privacy?
+- [p3] How does QA think about analytics and tracking?
+- [p3] How does QA think about content quality?
+- [p3] How does QA think about localization?
+- [p3] How does QA think about mobile and responsive behavior?
+- [p3] How does QA think about integrations and third-party systems?
+
+- [p3] What does a healthy QA and developer relationship look like?
+- [p3] What does an unhealthy QA and developer relationship look like?
+- [p3] How should QA challenge engineering without creating hostility?
+- [p3] How should developers respond to QA findings?
+- [p3] How should QA work with product owners?
+- [p3] How should QA work with designers?
+- [p3] How should QA work with business analysts?
+- [p3] How should QA work with project managers?
+- [p3] How should QA work with clients?
+- [p3] How should QA communicate uncomfortable truths?
+
+- [p3] What does a mature quality culture look like?
+- [p3] What does an immature quality culture look like?
+- [p3] How does leadership accidentally undermine QA?
+- [p3] How do incentives shape quality?
+- [p3] Why does move fast often become hide risk?
+- [p3] How do teams create psychological safety for surfacing defects?
+- [p3] How do teams avoid blame while still requiring accountability?
+- [p3] How should QA leaders develop junior testers?
+- [p3] What makes a great QA Lead?
+- [p3] What makes QA strategic?
+
+- [p3] How can AI help QA?
+- [p3] Where is AI dangerous in QA?
+- [p3] Can AI generate useful test cases?
+- [p3] Can AI replace exploratory testing?
+- [p3] How should QA validate AI-generated test artifacts?
+- [p3] How can AI help with defect summaries, reproduction steps, and coverage analysis?
+- [p3] How can AI help with test data?
+- [p3] What should never be delegated blindly to AI?
+- [p3] How does QA test AI-enabled products?
+- [p3] What does responsible AI usage look like inside QA?
+
+- [p3] How do we assess QA maturity?
+- [p3] What does Level 1 QA maturity look like?
+- [p3] What does Level 5 QA maturity look like?
+- [p3] What rituals should exist in a modern QA operating model?
+- [p3] What artifacts should exist?
+- [p3] What should be in a QA RACI?
+- [p3] How should QA be staffed?
+- [p3] How should QA be budgeted?
+- [p3] How should QA be included in estimates?
+- [p3] How does a team adopt this model without boiling the ocean?
+
+- [p3] How does QA work in fixed-fee delivery?
+- [p2] Why is unfunded QA a margin problem?
+- [p2] How should QA be represented in proposals?
+- [p2] How should QA be explained to clients?
+- [p2] What QA assumptions belong in a statement of work?
+- [p2] How should QA handle client UAT?
+- [p2] What is the difference between QA testing and client acceptance testing?
+- [p2] How do agencies avoid treating QA as the schedule buffer?
+- [p2] How does QA protect client trust?
+- [p2] How does strong QA improve profitability?
+
+- [p2] What risk are we pretending does not exist?
+- [p2] What are we assuming the user will understand?
+- [p2] What are we assuming the system will do?
+- [p2] What are we assuming the developer checked?
+- [p2] What are we assuming the client meant?
+- [p2] What would make this release embarrassing?
+- [p2] What would make this release unsafe?
+- [p2] What would make this release expensive?
+- [p2] What would make this release untrustworthy?
+- [p2] What would we wish we had tested if this failed in production?
+
+- [p2] Is quality a craft, a process, a culture, or a control system?
+- [p3] Can a team be fast without being disciplined?
+- [p3] Can QA be independent and collaborative at the same time?
+- [p3] Is QA's job to prove the software works or discover how it fails?
+- [p3] What does professional courage look like in QA?
+- [p3] What does good enough to ship really mean?
+- [p3] Who gets to define acceptable risk?
+- [p3] What does trust cost?
+- [p3] What does poor quality cost?
+- [p3] What would change if we treated QA as essential instead of optional?`

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #14323a;
+  background:
+    radial-gradient(circle at 10% -20%, rgba(255, 207, 153, 0.42), transparent 38%),
+    radial-gradient(circle at 80% 0%, rgba(170, 223, 212, 0.4), transparent 42%),
+    linear-gradient(180deg, #f7f5ef, #eef4f5);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Fraunces', serif;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
